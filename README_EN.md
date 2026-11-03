@@ -18,11 +18,13 @@
 
 ## Overview
 
-**Xiaobai-Research (`dsh-plugin-research-report` v1.0)** is a DeepSeek Harness (Cordis) plugin and universal Agent Skill distilled from **120+ real-world industrial, enterprise software, and R&D grant research reports**.
+> **🎯 Vertical Positioning: Research Report Engine for Individual Developers, Tech Teams & Enterprises — Featuring Scientific Make-vs-Buy (In-House R&D Cost vs. Procurement) Decision Analysis**
+
+**Xiaobai-Research (`dsh-plugin-research-report` v1.0)** is a DeepSeek Harness (Cordis) plugin and universal Agent Skill distilled from **120+ real-world industrial, enterprise software, and R&D grant research reports**, tailored for **individual developers, R&D teams, and enterprise decision-makers**.
 
 It solves the three biggest failures of LLM-generated industry reports:
 1. **Cross-Domain Readability (CDRI)**: Forces a plain-language technology evolution timeline in Section 2.1 so any industry newcomer can grasp the domain in **5 minutes**.
-2. **Bottleneck & Make-vs-Buy Penetration (BPS & MBAI)**: Eliminates marketing brochure copy-pasting by requiring falsifiable physical bottleneck bounds (mechanism, sensing, decision, safety, evidence) and paired *Make-vs-Buy* cost/compensation trade-offs at the end of every chapter.
+2. **Bottleneck & Scientific Make-vs-Buy Decision Penetration (BPS & MBAI)**: Eliminates marketing brochure copy-pasting by requiring falsifiable physical bottleneck bounds (mechanism, sensing, decision, safety, evidence) and paired **in-house R&D cost vs. commercial procurement** trade-offs and risk compensation strategies at the end of every chapter.
 3. **Publication-Grade Word Delivery (PGFC)**: Bundled offline `python-docx` + `mistune` pipeline (`build_docx.py`) generates a standardized A4 `.docx` with 0.5pt monochrome comparison tables and a native 3-level Word Table of Contents (`TOC \o "1-3"`).
 
 <div align="center">
