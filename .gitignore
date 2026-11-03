@@ -1,0 +1,18 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build / temp artifacts
+build/
+dist/
+*.tmp
+~$*.docx
+
+# OS
+.DS_Store
+Thumbs.db

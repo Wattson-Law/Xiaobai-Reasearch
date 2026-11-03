@@ -1,0 +1,48 @@
+{
+  "name": "dsh-plugin-research-report",
+  "version": "1.0.0",
+  "description": "Xiaobai-Research: DeepSeek Harness (DSH) plugin & Agent Skill distilled from 120+ industry reports for generating publication-grade Chinese research reports (.docx) with 3-level auto TOC and dual-thread heuristic verification.",
+  "author": "Wattson-Law",
+  "homepage": "https://github.com/Wattson-Law/Xiaobai-Reasearch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wattson-Law/Xiaobai-Reasearch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wattson-Law/Xiaobai-Reasearch/issues"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "skills",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "README_EN.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "agent-skills",
+    "research-report",
+    "xiaobai-research",
+    "docx"
+  ],
+  "peerDependencies": {
+    "cordis": ">=3.0.0"
+  },
+  "optionalDependencies": {},
+  "dsh": {
+    "type": "plugin",
+    "skills": [
+      "skills/research-report"
+    ]
+  },
+  "dsh.bundle": {
+    "patch": "cordis.patch.yml"
+  },
+  "license": "MIT"
+}

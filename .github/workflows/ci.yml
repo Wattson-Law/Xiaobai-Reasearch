@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  verify-skill-and-plugin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install lxml dependency
+        run: pip install lxml
+
+      - name: Verify Python scripts syntax & CLI help
+        run: |
+          python skills/research-report/scripts/check_threads.py --help
+          python skills/research-report/scripts/markdown_to_docx.py --help
+          python skills/research-report/scripts/ensure_toc.py --help
+          python skills/research-report/scripts/build_docx.py --help
+
+      - name: Verify Node.js Cordis plugin entry
+        run: |
+          node -e "const p = require('./lib/index.js'); if (!p || typeof p.apply !== 'function') process.exit(1); console.log('Plugin loaded:', p.name);"
