@@ -18,9 +18,7 @@
 
 ## Overview
 
-> **🎯 Vertical Positioning: Research Report Engine for Individual Developers, Tech Teams & Enterprises — Featuring Scientific Make-vs-Buy (In-House R&D Cost vs. Procurement) Decision Analysis**
-
-**Xiaobai-Research (`dsh-plugin-research-report` v1.0)** is a DeepSeek Harness (Cordis) plugin and universal Agent Skill distilled from **120+ real-world industrial, enterprise software, and R&D grant research reports**, tailored for **individual developers, R&D teams, and enterprise decision-makers**.
+**Xiaobai-Research (`dsh-plugin-research-report` v1.0)** is a DeepSeek Harness (Cordis) plugin and universal Agent Skill distilled from **120+ real-world industrial, enterprise software, and R&D grant research reports**. Designed for **individual developers, R&D teams, and companies**, it generates deep industry research reports featuring **scientific Make-vs-Buy (in-house R&D cost vs. commercial procurement) decision analysis**.
 
 It solves the three biggest failures of LLM-generated industry reports:
 1. **Cross-Domain Readability (CDRI)**: Forces a plain-language technology evolution timeline in Section 2.1 so any industry newcomer can grasp the domain in **5 minutes**.
