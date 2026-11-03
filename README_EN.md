@@ -29,6 +29,12 @@ It solves the three biggest failures of LLM-generated industry reports:
   <img src="assets/architecture.svg" width="96%" alt="Xiaobai-Research Pipeline Architecture" />
 </div>
 
+### 📄 Generated Word (`.docx`) Output Preview
+
+<div align="center">
+  <img src="assets/docx_output_showcase.png" width="96%" alt="Xiaobai-Research Word DOCX Output Showcase" />
+</div>
+
 ---
 
 ## Benchmarks

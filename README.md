@@ -30,6 +30,12 @@
   <img src="assets/architecture.svg" width="96%" alt="Xiaobai-Research Pipeline Architecture" />
 </div>
 
+### 📄 插件直出 Word (`.docx`) 成果实拍预览
+
+<div align="center">
+  <img src="assets/docx_output_showcase.png" width="96%" alt="Xiaobai-Research Word DOCX Output Showcase" />
+</div>
+
 ---
 
 ## 🔬 二、 方法论溯源：120+ 份专业行业与立项报告逆向蒸馏
