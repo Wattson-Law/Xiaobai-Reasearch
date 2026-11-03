@@ -1,4 +1,3 @@
-# DeepSeek Harness (Cordis) runtime patch configuration
-plugins:
-  dsh-plugin-research-report:
-    pythonExecutable: python
+- insert:
+    - id: research-report
+      name: dsh-plugin-research-report

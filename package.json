@@ -18,6 +18,7 @@
     "skills",
     "assets",
     "cordis.patch.yml",
+    "screenshots.json",
     "README.md",
     "README_EN.md",
     "LICENSE"
@@ -36,13 +37,13 @@
   },
   "optionalDependencies": {},
   "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "type": "plugin",
     "skills": [
       "skills/research-report"
     ]
-  },
-  "dsh.bundle": {
-    "patch": "cordis.patch.yml"
   },
   "license": "MIT"
 }
