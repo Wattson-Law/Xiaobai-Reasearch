@@ -5,6 +5,7 @@
 <br/>
 
 [![Release](https://img.shields.io/badge/Release-v1.0.0-2563EB?style=flat-square&logo=github)](https://github.com/Wattson-Law/Xiaobai-Reasearch/releases)
+[![awesome-dsh-plugin](https://img.shields.io/badge/awesome--dsh--plugin-Listed-FC521F?style=flat-square&logo=awesomelists)](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 [![DeepSeek Harness](https://img.shields.io/badge/DeepSeek_Harness-Plugin-0D9488?style=flat-square)](https://github.com/Wattson-Law/Xiaobai-Reasearch)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Compatible-4F46E5?style=flat-square)](https://agentskills.io)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -13,6 +14,8 @@
 **[简体中文](README.md) · [English](README_EN.md) · [快速安装](#-四安装与快速开始) · [评测基准](#-三erqi-五大黄金标准与基线评测) · [下载 Release](https://github.com/Wattson-Law/Xiaobai-Reasearch/releases)**
 
 </div>
+
+> 🌟 **【官方收录】** 本项目已正式通过审核并收录至 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 官方精选插件生态（`Skill` 分类）！支持 `dsh plugin add github:Wattson-Law/Xiaobai-Reasearch` 一键安装。
 
 ---
 
